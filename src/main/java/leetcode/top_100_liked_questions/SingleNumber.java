@@ -1,4 +1,4 @@
-package top_100_liked_questions;
+package leetcode.top_100_liked_questions;
 
 public class SingleNumber {
     public static int singleNumber(int[] nums) {
