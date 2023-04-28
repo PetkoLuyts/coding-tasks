@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class CheckIfTwoStringArraysAreEquivalent {
     public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {

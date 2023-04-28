@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class DifferenceBetweenElementSumAndDigitSum {
     public static int differenceOfSum(int[] nums) {

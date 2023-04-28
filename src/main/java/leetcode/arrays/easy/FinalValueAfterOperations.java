@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class FinalValueAfterOperations {
     public static int finalValueAfterOperations(String[] operations) {

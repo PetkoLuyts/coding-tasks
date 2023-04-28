@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class SumOfAllOddLengthSubarrays {
     public static int sumOddLengthSubarrays(int[] arr) {

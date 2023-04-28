@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class ShuffleString {
     public static String restoreString(String s, int[] indices) {

@@ -1,4 +1,4 @@
-package leetcode.arrays;
+package leetcode.arrays.easy;
 
 public class MaximumNumberOfWordsFoundInSentences {
     public static int mostWordsFound(String[] sentences) {
