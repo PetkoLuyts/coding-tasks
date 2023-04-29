@@ -1,38 +1,24 @@
 package leetcode.arrays.medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class GroupAnagrams {
     public static List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> anagrams = new ArrayList<>();
+        if (strs == null || strs.length == 0) return new ArrayList<>();
+        Map<String, List<String>> map = new HashMap<>();
 
-        for (int i = 0; i < strs.length; i++) {
+        for (String s : strs) {
+            char[] ca = s.toCharArray();
+            Arrays.sort(ca);
+            String keyStr = String.valueOf(ca);
 
-
-            List<String> groupOfAnagrams = new ArrayList<>();
-
-            for (int j = i + 1; j < strs.length; j++) {
-                char[] firstWordArray = strs[i].toCharArray();
-                char[] secondWordArray = strs[j].toCharArray();
-
-                Arrays.sort(firstWordArray);
-                Arrays.sort(secondWordArray);
-
-                String firstWord = String.valueOf(firstWordArray);
-                String secondWord = String.valueOf(secondWordArray);
-
-                if (firstWord.equals(secondWord)) {
-                    groupOfAnagrams.add(strs[j]);
-                }
+            if (!map.containsKey(keyStr)) {
+                map.put(keyStr, new ArrayList<>());
             }
-
-            groupOfAnagrams.add(strs[i]);
-            anagrams.add(groupOfAnagrams);
+            map.get(keyStr).add(s);
         }
 
-        return anagrams;
+        return new ArrayList<>(map.values());
     }
 
     public static void main(String[] args) {
