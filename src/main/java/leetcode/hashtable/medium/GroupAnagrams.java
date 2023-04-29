@@ -1,4 +1,4 @@
-package leetcode.arrays.medium;
+package leetcode.hashtable.medium;
 
 import java.util.*;
 
