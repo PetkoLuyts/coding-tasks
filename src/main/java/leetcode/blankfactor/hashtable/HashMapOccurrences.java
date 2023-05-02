@@ -1,4 +1,4 @@
-package leetcode.blankfactor;
+package leetcode.blankfactor.hashtable;
 
 import java.util.HashMap;
 import java.util.Map;

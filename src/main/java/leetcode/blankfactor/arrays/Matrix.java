@@ -1,4 +1,4 @@
-package leetcode.blankfactor;
+package leetcode.blankfactor.arrays;
 
 import java.util.Scanner;
 
