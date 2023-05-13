@@ -9,7 +9,7 @@ public class FizzBuzz {
 
         for (int i = 1; i <= n; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
-                list.add("Fizzbuzz");
+                list.add("FizzBuzz");
             } else if (i % 5 == 0) {
                 list.add("Buzz");
             } else if (i % 3 == 0) {
