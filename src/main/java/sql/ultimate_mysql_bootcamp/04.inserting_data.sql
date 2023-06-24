@@ -82,11 +82,3 @@ INSERT INTO employees (first_name,last_name, age)
 VALUES ('thomas', 'chickenman', 87);
 
 SELECT * FROM employees;
-
-
-
-
-
-
-
-
