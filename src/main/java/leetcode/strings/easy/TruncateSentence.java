@@ -1,4 +1,4 @@
-package leetcode.strings;
+package leetcode.strings.easy;
 
 public class TruncateSentence {
     public static String truncateSentence(String s, int k) {

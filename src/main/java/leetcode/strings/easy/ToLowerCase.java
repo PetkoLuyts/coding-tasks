@@ -1,4 +1,4 @@
-package leetcode.strings;
+package leetcode.strings.easy;
 
 public class ToLowerCase {
     public static String toLowerCase(String s) {

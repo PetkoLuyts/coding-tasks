@@ -1,4 +1,4 @@
-package leetcode.strings;
+package leetcode.strings.easy;
 
 public class MergeTwoStrings {
     public static String mergeTwoStrings(String arr1, String arr2) {

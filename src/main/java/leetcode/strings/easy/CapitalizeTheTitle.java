@@ -1,4 +1,4 @@
-package leetcode.strings;
+package leetcode.strings.easy;
 
 public class CapitalizeTheTitle {
     public static String capitalizeTitle(String title) {
